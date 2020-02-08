@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+
+  This project is a system that reacts with different colors according to the temperature. In the project, one LM35 temperature sensor, one
+RGB led, three 330Ω resistor, an Arduino UNO, a breadboard and multiple jumpers were used.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Bu proje sıcaklığa göre farklı renklerle tepki veren bir sistemdir. Projede bir adet LM35 sıcaklık sensörü, bir adet RGB led, üç adet
+330Ω direnç, bir Arduino UNO, bir breadboard ve birden fazla jumper kullanılmıştır. 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
