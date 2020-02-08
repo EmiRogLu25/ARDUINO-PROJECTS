@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+
+  This project is a system used to obtain different colors in RGB led according to the data read from potentiometers. In the project, three 
+potentiometers, one RGB led, three 330Ω resistors, an Arduino UNO, a breadboard and multiple jumpers were used.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Bu proje potansiyometrelerden okunan verilere göre RGB ledde farklı renkleri elde etmeye yarayan bir sistemdir. Projede üç adet 
+potansiyometre, bir adet RGB led, üç adet 330Ω direnç, bir Arduino UNO, bir breadboard ve birden fazla jumper kullanılmıştır. 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
