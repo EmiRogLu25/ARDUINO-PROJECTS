@@ -1,0 +1,11 @@
+------------------------------------------------------------------------------------------------------------------------------------------
+
+  This project is a system that can return audibly and visually according to the distance. One HC06 ultrasonic sensor, one buzzer, three 
+leds, four 330Ω resistors, one Arduino UNO, one breadboard and multiple jumpers were used in the project.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+  
+  Bu proje mesafeye göre sesli ve görsel olarak geri dönüş yapabilen bir sistemdir. Projede bir adet HC06 ultrasonic sensör, bir adet 
+buzzer, üç adet led, dört adet 330Ω direnç, bir Arduino UNO, bir breadboard ve birden fazla jumper kullanılmıştır. 
+  
+------------------------------------------------------------------------------------------------------------------------------------------
