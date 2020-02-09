@@ -29,8 +29,8 @@ int bluetoothDurum;
 //dur=5
 
 Servo servoMotor;//Servo motor degiskeni
-int solUzaklik;
-int sagUzaklik;
+int solUzaklik;//tank durdugunda HC06 sola doner ve sol uzakligi hesaplar
+int sagUzaklik;//tank durdugunda HC06 saga doner ve sag uzakligi hesaplar
 
 int motorHizi = 255;//motor hizini belirler
 
