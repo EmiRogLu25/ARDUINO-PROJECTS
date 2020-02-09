@@ -1,0 +1,45 @@
+---------------------------------------------------------------------------------------------------------------------------------------
+
+  This project is a tank made with Arduino and can be controlled via bluetooth. The tank has three modes. The first is the mode that 
+proceeds by avoiding the obstacle. In this mode, the tank can travel in an area without hitting any obstacles. For this feature, I used 
+one servo motor and one HC06 ultrasonic sensor other than Arduino UNO.
+
+----------------------------------------------------------------------------------------------------------------------------------------  
+  
+  Bu proje Arduino ile yapılmış ve bluetooth üzerinden kontrol edilebilen bir tankdır. Tankın üç modu vardır. Birincisi engelden kaçarak
+ilerleyen moddur. Bu modda tank hiçbir engele çarpmadan bir alan içerisinde ilerleyebilir. Bu özellik için Arduino UNO dışında bir adet 
+servo motor ve bir adet HC06 ultrasonic sensörü kullandım. Tank düz ilerlerken eğer mesafe 15 cm'den küçükse tank durur. Servo motor 
+yardımıyla HC06 sensörü sola dönüp mesafeyi ölçer. Ölçtüğü değeri bir değişkende saklar. Sonra yine servo motor yardımıyla HC06 sensörü 
+sağa dönüp mesafeyi ölçer. Ölçtüğü değeri farklı bir değişkende saklar. Daha sonra sol ve sağ mesafelerini karşılaştırır. Eğer sol mesafe 
+sağ  mesafeden küçükse tank sağa döner. Eğer sağ mesafe sol mesafeden küçükse tank sola döner. Eğer sol ve sağ mesafeler eşitse tank sağa 
+döner. Ardından tank ilerler ve tank engelle karşılaştıkça tekrar tekrar bu işlemleri uygular. Tankın ikinci modu çizgi izleyerek 
+ilerleyen moddur. Bu modda tank belirlenen çizgiyi takip ederek ilerler. Bu özellik için üç adet çizgi izleyen sensör(tankın solu, ortası
+ve sağı için) kullandım. Tank çizgi izlemeyi bu üç adet sensör yardımıyla gerçekleştirir. Tankın son modu ise serbest moddur. Tank
+bluetooth üzerinden android cihazlar için geliştirmiş olduğum mobil uygulamadan kontrol edilebilir. Ayrıca bu üç mod da aynı mobil 
+uygulama üzerinden kontrol edilebilir.
+
+Tank İçin Kullanılan Malzemeler
+-Arduino UNO
+-Çok amaçlı robot platformu
+-L298N voltaj regülatörlü çift motor sürücü kartı
+-4'lü cizgi izleyen sensör seti
+-Pil 
+-Pil yuvası
+-Jumper
+-HC-SR04 ultrasonik meaafe sensörü
+-SG90 9G servo motor
+-HC06 bluetooth modülü
+NOT: Çok amaçlı robot platformu iceriği şöyledir:
+-Üst ve alt pleksi gövde
+-4 adet motor
+-4 adet tekerlek
+-Metal aralayıcılar
+-4'lü pil yuvası
+-2 adet enkoder disk
+-Çeşitli vida ve somonlar
+ÇOK AMAÇLI ROBOT PLATFORMU LİNKİ
+=》 https://www.robotistan.com/4wd-cok-amacli-mobil-robot-platformu-seffaf
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
