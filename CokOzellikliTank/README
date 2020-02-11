@@ -2,7 +2,38 @@
 
   This project is a tank made with Arduino and can be controlled via bluetooth. The tank has three modes. The first is the mode that 
 proceeds by avoiding the obstacle. In this mode, the tank can travel in an area without hitting any obstacles. For this feature, I used 
-one servo motor and one HC06 ultrasonic sensor other than Arduino UNO.
+one servo motor and one HC06 ultrasonic sensor other than Arduino UNO. As the tank moves straight, if the distance is less than 15 cm, 
+the tank stops. With the help of servo motor, HC 06 sensor turns left and measures the distance. It stores the measured value in a 
+variable. Then again with the help of servo motor, HC06 sensor turns right and measures the distance. It stores the measured value in a
+different variable. It then compares the left and right distances. If the left distance is less than the right distance, the tank turns 
+right. If the right distance is less than the left distance, the tank turns to the left. If the left and right distances are equal, the 
+tank turns right. Then the tank moves forward and repeats these operations repeatedly as the tank encounters an obstacle. The second mode 
+of the tank is the mode that follows the line. In this mode, the tank moves following the determined line. For this feature, I used three
+line-following sensors (for the left, center and right of the tank). Tank performs line tracking with the help of these three sensors.
+The last mode of the tank is free mode. The tank can be controlled from the mobile application I have developed for android devices via 
+bluetooth. These three modes can also be controlled via the same mobile application.
+
+Materials Used for Tank
+-Arduino UNO
+-Multipurpose robot platform
+-L298N dual motor driver board with voltage regulator
+-Set of 4-sensor tracking the line
+-Battery
+-Battery bed
+-Jumper
+-HC-SR04 ultrasonic distance sensor
+-SG90 9G servo motor
+-HC06 bluetooth module
+NOTE: The multi-purpose robot platform content is as follows:
+-Upper and lower plexi body
+-4 engines
+-4 wheels
+-Metal spacers
+-4 battery slot
+-2 encoder discs
+-Various screws and salmon
+MULTI-PURPOSE ROBOT PLATFORM LINK
+=》 https://www.robotistan.com/4wd-cok-amacli-mobil-robot-platformu-seffaf
 
 ----------------------------------------------------------------------------------------------------------------------------------------  
   
@@ -26,7 +57,7 @@ Tank İçin Kullanılan Malzemeler
 -Pil 
 -Pil yuvası
 -Jumper
--HC-SR04 ultrasonik meaafe sensörü
+-HC-SR04 ultrasonik measafe sensörü
 -SG90 9G servo motor
 -HC06 bluetooth modülü
 NOT: Çok amaçlı robot platformu iceriği şöyledir:
